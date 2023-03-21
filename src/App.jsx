@@ -1,7 +1,7 @@
 import './App.css'
 
 import { Link, Routes, Route } from 'react-router-dom'
-import ErrorPage from './routes/ErrorPage'
+import ErrorPage from './comps/ErrorPage'
 
 function App() {
 
