@@ -1,15 +1,15 @@
 const Footer = () => {
   return(
-    <footer className="bg-lightGrey ">
+    <footer className="bg-lightGrey font-gordita">
       <div className="wrapper">
-        <div className="footerTop flex">
+        <div className="footerTop flex justify-between pt-20">
           <div className="footerLeft">
-            <h2 className="text-9xl">Most complete job portal.</h2>
-            <p>Signup and start finding your job or talents.</p>
+            <h2 className="text-5xl">Most complete job portal.</h2>
+            <p className="text-sm">Signup and start finding your job or talents.</p>
           </div>
           <div className="footerRight">
             <a href="" className="text-green m-2">Looking for a job?</a>
-            <button>Post a job</button>
+            <button className="bg-limeGreen text-">Post a job</button>
           </div>
         </div>
         <div className="footerMiddle">
