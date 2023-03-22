@@ -4,18 +4,18 @@ const Footer = () => {
       <div className="wrapper">
         <div className="footerTop flex justify-between pt-20">
           <div className="footerLeft">
-            <h2 className="text-5xl">Most complete job portal.</h2>
-            <p className="text-sm">Signup and start finding your job or talents.</p>
+            <h2 className="text-6xl">Most complete job portal.</h2>
+            <p className="text-1xl">Signup and start finding your job or talents.</p>
           </div>
-          <div className="footerRight">
-            <a href="" className="text-green m-2">Looking for a job?</a>
-            <button className="bg-limeGreen text-">Post a job</button>
+          <div className="footerRight mt-7">
+            <a href="" className="text-limeGreen m-3 border-limeGreen border p-4  text-2xl rounded">Looking for a job?</a>
+            <button className="bg-limeGreen m-3 p-4 px-10 text-2xl rounded">Post a job</button>
           </div>
         </div>
         <div className="footerMiddle">
-          <ul>
+          <ul className="flex mt-20">
             <li>
-              <img src="" alt="Jobi Logo" />
+              <img src="assets\logoJobi.png" alt="Jobi Logo" className=""/>
             </li>
             <li>
               <h4>Products</h4>
