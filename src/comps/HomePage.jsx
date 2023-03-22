@@ -2,7 +2,7 @@ const HomePage = () => {
   return(
     <div>
 
-      <main>
+      <main className="">
 
         {/* Header Section */}
 

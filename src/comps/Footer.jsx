@@ -1,14 +1,14 @@
 const Footer = () => {
   return(
-    <footer>
+    <footer className="bg-lightGrey ">
       <div className="wrapper">
-        <div className="footerTop">
+        <div className="footerTop flex">
           <div className="footerLeft">
-            <h2>Most complete job portal.</h2>
+            <h2 className="text-9xl">Most complete job portal.</h2>
             <p>Signup and start finding your job or talents.</p>
           </div>
           <div className="footerRight">
-            <a href="">Looking for a job?</a>
+            <a href="" className="text-green m-2">Looking for a job?</a>
             <button>Post a job</button>
           </div>
         </div>
