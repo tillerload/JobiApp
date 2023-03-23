@@ -18,3 +18,9 @@ html { box-sizing: border-box;}
     width: 80%;
     margin: 0 auto;
   }
+
+  .wrapperTwo {
+    max-width: 1800px;
+    width: 95%;
+    margin: 0 auto;
+  }
