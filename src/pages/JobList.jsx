@@ -22,7 +22,7 @@ const JobList = () => {
         </div>
       </header>
 
-      <section>
+      <main>
         <div className="wrapper">
           <div>
             <h3>Filter By</h3>
@@ -48,7 +48,7 @@ const JobList = () => {
             </ul>
           </div>
         </div>
-      </section>
+      </main>
 
     </div>
   )

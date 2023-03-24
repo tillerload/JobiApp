@@ -14,7 +14,7 @@ const JobDetails = () => {
         </div>
       </header>
 
-      <section>
+      <main>
         <div className="wrapper">
           <ul>
           {/* This list is currently hardcoded, but it will be displaying data from the job that the user clicked on */}
@@ -79,7 +79,7 @@ const JobDetails = () => {
           <button>Apply for this position</button>
 
         </div>
-      </section>
+      </main>
     </div>
   )
 }
