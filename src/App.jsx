@@ -6,13 +6,14 @@ import HomePage from './comps/HomePage'
 import Footer from './comps/Footer'
 import Header from './comps/Header'
 import JobDetails from './JobDetails'
+import JobList from './comps/JobList'
 
 function App() {
 
   return (
     <div className="App">
       <Header />
-      <JobDetails />
+      <JobList />
       <Footer />
 
       <Routes>
