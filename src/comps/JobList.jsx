@@ -24,7 +24,29 @@ const JobList = () => {
 
       <section>
         <div className="wrapper">
-          
+          <div>
+            <h3>Filter By</h3>
+            <ul>
+              <li>
+                <h4>Location</h4>
+              </li>
+              <li>
+                <h4>Job Type</h4>
+              </li>
+              <li>
+                <h4>Experience</h4>
+              </li>
+              <li>
+                <h4>Salary</h4>
+              </li>
+              <li>
+                <h4>Category</h4>
+              </li>
+              <li>
+                <h4>Tags</h4>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
