@@ -4,7 +4,7 @@ const ErrorPage = () => {
       <main className="font-garamond">
         <div className="wrapper">
           <div className="flex items-center">
-            <div className="m-6">
+            <div className="mx-6 my-20">
               <img src="https://placehold.co/592x592" alt="something cute" />
             </div>
             <div className="m-6">
