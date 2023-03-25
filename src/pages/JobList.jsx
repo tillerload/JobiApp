@@ -24,7 +24,8 @@ const JobList = () => {
 
       <main>
         <div className="wrapper">
-          <div>
+
+          <section>
             <h3>Filter By</h3>
             <ul>
               <li>
@@ -46,7 +47,58 @@ const JobList = () => {
                 <h4>Tags</h4>
               </li>
             </ul>
-          </div>
+          </section>
+
+          <section>
+
+            <div>
+              {/* going to need to insert number of jobs found by searches */}
+              <p>All jobs found</p>
+              <div>
+                <p>sort:</p>
+                <form action="">
+                  <select name="" id=""></select>
+                    <option value="">latest</option>
+                    <option value="">oldest</option>
+                    {/* etc etc */}
+                </form>
+              </div>
+            </div>
+
+            <ul>
+              <li>
+                <div>
+                  <div>
+                    <img src="" alt="logo" />
+                  </div>
+                  <div>
+                    <p>Full/Part Time</p>
+                    <h3>Job title</h3>
+                  </div>
+                </div>
+                <div>
+                  <p>location</p>
+                  <p>Salary / Hourly Rate</p>
+                </div>
+                <div>
+                  <button>Save</button>
+                  <button>Apply</button>
+                </div>
+              </li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+
+            {/* Next Page button, with list of page numbers including which page youre currently on */}
+
+          </section>
+          
         </div>
       </main>
 
