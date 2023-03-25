@@ -13,12 +13,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <ErrorPage />
-      <Footer />
 
-      <Routes>
-        <Route path='/ErrorPage' element={<ErrorPage />} />
-      </Routes>
+        <Routes>
+          <Route path='/' element={<HomePage/>} />
+          <Route path='/ErrorPage' element={<ErrorPage />} />
+          <Route path='/JobDetails' element={<JobDetails />} />
+          <Route path='/JobList' element={<JobList />} />
+        </Routes>
+
+      <Footer />
     </div>
   )
 }

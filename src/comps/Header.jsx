@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return(
     <div className="font-garamond text-white">
@@ -14,11 +16,11 @@ const Header = () => {
               <a href="" className="text-yellowGreen">Category</a>
             </div>
             <ul className="flex">
-              <a href="" className="mx-3">Home</a>
-              <a href="" className="mx-3">Job</a>
-              <a href="" className="mx-3">Explore</a>
-              <a href="" className="mx-3">Contact</a>
-              <a href="" className="mx-3">Pages</a>
+              <Link to='/' className="mx-3">Home</Link>
+              <Link to='/ErrorPage' className="mx-3">Jobs</Link>
+              <Link to='/JobList' className="mx-3">Explore</Link>
+              <Link to='/ErrorPage' className="mx-3">Contact</Link>
+              <Link to='/ErrorPage' className="mx-3">Pages</Link>
             </ul>
           </div>
           <div className="headerMiddle">
