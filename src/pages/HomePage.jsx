@@ -205,12 +205,12 @@ const HomePage = () => {
               <img src="" alt="" />
             </div>
             <div>
-              <a href="">Left</a>
+              <button>Left</button>
               <div>
                 <p></p>
                 <p></p>
               </div>
-              <a href="">Right</a>
+              <button>Right</button>
             </div>
             <ul>
               <li>
