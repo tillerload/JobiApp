@@ -1,14 +1,19 @@
 import './App.css'
 
+import firebase from './firebase'
 import { Link, Routes, Route } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+
 import ErrorPage from './pages/ErrorPage'
-import HomePage from './pages/HomePage'
+import HomePage from './pages/homePage/HomePageMain'
 import Footer from './comps/Footer'
 import Header from './comps/Header'
 import JobDetails from './pages/JobDetails'
-import JobList from './pages/JobList'
+import JobList from './pages/jobList/JobList'
 
 function App() {
+
+  const [dataTest, useDataTest] = useState([])
 
   return (
     <div className="App">
