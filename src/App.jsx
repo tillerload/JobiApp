@@ -1,6 +1,6 @@
 import './App.css'
 
-import firebase from './firebase'
+import firebase from './firebase.js'
 import { Link, Routes, Route } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
