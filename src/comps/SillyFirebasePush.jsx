@@ -1,19 +1,28 @@
 import jobsData from "./jobsData"
-import firebase from './firebase'
+import { getFirestore, collection, getDocs } from 'firebase/firestore'
 import { useEffect, useState } from 'react'
+import firebaseConfig from '../firebase'
+import { initializeApp } from "firebase/app"
 
 const SillyFirebasePush = () => {
 
   const [dataTest, setDataTest] = useState([])
 
   useEffect(() => {
-    const database = getDatabase(firebase)
-    const dbRef = ref(database)
+    initializeApp(firebaseConfig)
+    const db = getFirestore()
+    const colRef = collection(db, 'books')
+    getDocs(colRef)
+      .then((snapshot) => {
+        console.log(snapshot.docs)
+      })
 
   }, [])
 
   return(
-d
+    <div>
+      <h1>firebase stuff</h1>
+    </div>
   )
 }
 

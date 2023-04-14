@@ -19,7 +19,7 @@ module.exports = {
     extend: {
       fontFamily: {
         garamond: "'EB Garamond', serif",
-        gordita: 'Gordita Regular'
+        // gordita: 'Gordita Regular'
 
 
       }

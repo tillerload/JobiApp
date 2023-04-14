@@ -21,26 +21,32 @@ const Footer = () => {
               </li>
               <li className="text-lg mx-12">
                 <h4 className="text-2xl mb-4">Products</h4>
-                <li className="mb-4">Take the tour</li>
-                <li className="mb-4">Live chat</li>
-                <li className="mb-4">Self service</li>
-                <li className="mb-4">Mobile</li>
-                <li className="mb-4">Collaboration</li>
-                <li className="mb-4">Reviews</li>
+                <ul>
+                  <li className="mb-4">Take the tour</li>
+                  <li className="mb-4">Live chat</li>
+                  <li className="mb-4">Self service</li>
+                  <li className="mb-4">Mobile</li>
+                  <li className="mb-4">Collaboration</li>
+                  <li className="mb-4">Reviews</li>
+                </ul>
               </li>
               <li className="text-lg mx-12">
                 <h4 className="text-2xl mb-4">Links</h4>
-                <li className="mb-4">Pricing</li>
-                <li className="mb-4">About us</li>
-                <li className="mb-4">Careers</li>
-                <li className="mb-4">Blog</li>
+                <ul>
+                  <li className="mb-4">Pricing</li>
+                  <li className="mb-4">About us</li>
+                  <li className="mb-4">Careers</li>
+                  <li className="mb-4">Blog</li>
+                </ul>
               </li>
               <li className="text-lg mx-12">
                 <h4 className="text-2xl mb-4">Legal</h4>
-                <li className="mb-4">Terms of use</li>
-                <li className="mb-4">Terms & conditions</li>
-                <li className="mb-4">Privacy</li>
-                <li className="mb-4">Cookie policy</li>
+                <ul>
+                  <li className="mb-4">Terms of use</li>
+                  <li className="mb-4">Terms & conditions</li>
+                  <li className="mb-4">Privacy</li>
+                  <li className="mb-4">Cookie policy</li>
+                </ul>
               </li>
               <li className="text-lg mx-12">
                 <h4 className="text-2xl mb-3">Newsletter</h4>
