@@ -8,7 +8,7 @@ const HomePageHeader = () => {
                 <h5 className="text-limeGreen">#1 Online Marketplace</h5>
                 <h1 className="text-darkGreen text-7xl my-3">Find the talents for any job.</h1>
                 <p className="my-7 text-xl">Unlock your potential with quiality job and earn from world leading brands & co.</p>
-                <a href="" className="bg-limeGreen text-white rounded-2xl py-2 px-5">Post a job</a>
+                <a href="" className="btn">Post a job</a>
                   <ul className="flex items-center mt-5">
                     <li>
                       <p className="text-greyGreen text-lg">Trusted by:</p>
