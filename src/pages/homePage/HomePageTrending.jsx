@@ -1,10 +1,10 @@
 const HomePageTrending = () => {
   return(
     <div>
-      <section className="trendingServices">
+      <section className="trendingServices my-20">
           <div className="wrapper">
             <div className="topPartTrending">
-              <h2>Trending Services</h2>
+              <h2 className="text-darkGreen text-5xl">Trending Services</h2>
               <div className="trendingButtons">
                 <button className="leftButton"></button>
                 <button className="rightButton"></button>

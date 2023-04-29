@@ -1,7 +1,7 @@
 const HomePageHeader = () => {
   return(
     <div>
-      <section className="indexHeader mt-10">
+      <section className="indexHeader my-20">
           <div className="wrapper">
             <div className="flex">
               <div className="indexHeaderLeft mr-6">
