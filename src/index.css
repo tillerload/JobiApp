@@ -7,9 +7,15 @@
     color: theme('colors.white');
     background-color: theme('colors.limeGreen');
     border-radius: theme('borderRadius.2xl');
-    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
-    
-
+    padding: 0.5rem 1.25rem;
+  }
+  .marketBtn {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
   }
 }
 
