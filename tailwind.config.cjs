@@ -16,7 +16,8 @@ module.exports = {
       limeGreen: '#00B454',
       white: '#FFFFFF',
       greyGreen: '#93AD9F',
-      brown: '#614137'
+      brown: '#614137',
+      collabGreen: '#29503D'
     },
     extend: {
       fontFamily: {
