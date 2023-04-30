@@ -1,15 +1,18 @@
 const HomePageGetStarted = () => {
   return(
     <div>
-      <section className="getStartedSection">
-          <div className="wrapper">
-            <div className="getStartedLeft">
-              {/* needs to be blank and but take of 50% of the width */}
-            </div>
-            <div className="getStartedRight">
-              <img src="" alt="" />
-              <h2>Let's get started It's simple.</h2>
-              <p>Get access to our top 1% talent as well as a complete set of hybrid workforce management tools.</p>
+      <section className="getStartedSection my-10">
+          <div className="wrapper bg-grey">
+            <div className="getStartedTop flex">
+              <div className="getStartedLeft bg-green w-2/4">
+                <h2>ahhh</h2>
+                {/* needs to be blank and but take of 50% of the width */}
+              </div>
+              <div className="getStartedRight">
+                <img src="assets\videoPlayButton.png" alt="" />
+                <h2 className="text-6xl text-white w-4/5">Let's get started It's simple.</h2>
+                <p>Get access to our top 1% talent as well as a complete set of hybrid workforce management tools.</p>
+              </div>
             </div>
             <div className="getStartedBottom">
               <ul>
