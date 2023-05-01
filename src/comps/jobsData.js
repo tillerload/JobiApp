@@ -736,4 +736,4 @@ const jobsData = [
   },
 ]
 
-export default jobsData
+export default jobsData;

@@ -12,17 +12,17 @@ import { collection, getFirestore, getDocs } from "firebase/firestore";
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyBHW_3tk9uE4q1Q6TD9iUKNqZTtOgBTIS4",
+  apiKey: "AIzaSyBi494XxixYxyzNnscgfoyr5lBULQ2NXco",
 
-  authDomain: "jobiapp-281ce.firebaseapp.com",
+  authDomain: "jobiapp-1f5e5.firebaseapp.com",
 
-  projectId: "jobiapp-281ce",
+  projectId: "jobiapp-1f5e5",
 
-  storageBucket: "jobiapp-281ce.appspot.com",
+  storageBucket: "jobiapp-1f5e5.appspot.com",
 
-  messagingSenderId: "481465063148",
+  messagingSenderId: "664220215472",
 
-  appId: "1:481465063148:web:3c827a7ed78e3dcd1cf7c9"
+  appId: "1:664220215472:web:a994f6bdb694d11d667375"
 
 };
 
