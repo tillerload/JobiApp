@@ -11,19 +11,18 @@ const HomePageTrending = () => {
               </div>
             </div>
             <div className="servicePictures">
-              <ul>
-                {/* Hard coding for now, but eventually will be data from firebase that  */}
-                <li>
-                  <p>WordPress Development</p>
+              <ul className="flex my-6">
+                <li className="bg-grey p-4 pt-56 mr-6 w-56">
+                  <a href="" className="pr-10">WordPress Development</a>
                 </li>
-                <li>
-                  <p>Audio & Video Editing.</p>
+                <li className="bg-grey p-4 pt-56 mx-6 w-56">
+                  <a href="" className="pr-10">Audio & Video Editing</a>
                 </li>
-                <li>
-                  <p>Product & Branding Design</p>
+                <li className="bg-grey p-4 pt-56 mx-6 w-56">
+                  <a href="">Product & Branding Design</a>
                 </li>
-                <li>
-                  <p>Admin & Customer Support</p>
+                <li className="bg-grey p-4 pt-56 mx-6 w-56">
+                  <a href="">Admin & Customer Support</a>
                 </li>
               </ul>
             </div>
