@@ -20,7 +20,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <SillyFirebasePush />
 
         <Routes>
           <Route path='/' element={<HomePage/>} />
