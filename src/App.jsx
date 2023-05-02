@@ -10,7 +10,6 @@ import Footer from './comps/Footer'
 import Header from './comps/Header'
 import JobDetails from './pages/JobDetails'
 import JobList from './pages/jobList/JobList'
-import SillyFirebasePush from './comps/SillyFirebasePush'
 
 
 function App() {
